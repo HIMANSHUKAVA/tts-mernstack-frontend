@@ -1,0 +1,179 @@
+Question 1: Define HTML. What is the purpose of HTML in web development?
+
+=>
+-> html is stand for hyper text markup language
+-> it provide website structure for user
+-> html  front page is client view
+-> html is created by tim bourner lee in 1998
+-> main purpose is created webpage client view
+===================================================================================================== 
+Question 2: Explain the basic structure of an HTML document. Identify the mandatory tags
+and their purposes.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple paragraph.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+This declares the document type as HTML5.
+It helps the browser understand that this is an HTML document.
+<html>
+
+This is the root element of an HTML document.
+All other HTML elements are placed inside this tag.
+<head>
+
+Contains metadata (information about the webpage).
+It includes the <title>, <meta> tags, and links to stylesheets or scripts.
+<title>
+
+Defines the title of the webpage (shown in the browser tab).
+<body>
+
+This section contains the visible content of the webpage, such as text, images, links, and other elements.
+
+============================================================================================================================
+ Question 3: What is the difference between block-level elements and inline elements in
+HTML? Provide examples of each.
+
+=> block element = > bloack element ne space need hoy ke na hoy tem chata 100% width occupy kare
+ex <p> , <img> , <div>
+
+=>iniline element = > tene need hoy tetlij width occupy kare
+
+Question 4: Discuss the role of semantic HTML. Why is it important for accessibility and SEO?
+Provide examples of semantic elements.
+
+
+semantic tage = > easily understand this tag it is called semantic tag
+
+example  <h1> <p> <img>
+
+advantage
+
+1) SEO frindly
+2) readable
+
+===================================================================================================================================
+
+Question 1: What are HTML forms used for? Describe the purpose of the input, textarea,
+select, and button elements
+
+
+------>
+
+html form no use particular data collect karva mate thay che
+forms na main component id , name , method etc
+
+forms no main purpose client ni particular information store kari ne verify karvano che
+
+purpose of input ----> client ni information collect karva mate thay che
+
+textarea -->The <textarea> element in HTML is used to create a multi-line text input field where users can enter longer pieces of text, such as messages, comments, or descriptions.
+
+select-----> droupdown banava mate tatha opetion aapva mate thay che
+
+button--->  usecase form na submission mate thay che
+
+=========================================================================================
+
+Question 2: Explain the difference between the GET and POST methods in form submission.
+When should each be used?
+
+----->
+
+GET
+
+=>small data inserted
+=>not secure
+=> cachebale = > yes
+
+POST
+
+=> big data inserted (like photos)
+=>secure
+=>cachable = >no
+==============================================================================================
+ 
+Question 3: What is the purpose of the label element in a form, and how does it improve
+accessibility?
+
+=>
+The <label> element in HTML is used to associate a text description with a form input element. It improves usability and accessibility by making forms more intuitive and user-friendly, especially for people using screen readers or assistive technologies.
+
+ Improves user experience by clearly indicating what input is expected.
+ Enhances accessibility for visually impaired users who use screen readers.
+ Increases clickable area, making form interaction easier on touch devices.
+==============================================================================================
+
+Question 1: Explain the structure of an HTML table and the purpose of each of the following
+elements: <table>, <tr>, <th>, <td>, and <thead>.
+
+
+--------->
+<table> ---> if we create table it is used to table tag
+<tr> ------> it define table rows
+<th> ------> define table row name
+<thead>----->it is coverd table heading 
+
+===================================================================================================
+
+Question 2: What is the difference between colspan and rowspan in tables? Provide
+examples
+
+---->
+colspan-----> aa coulm vache space provide kare che
+
+rowspan-----> aa text vache space aape che
+
+practical example are implement by assignment
+
+============================================================================================
+
+
+Question 3: Why should tables be used sparingly for layout purposes? What is a better
+alternative ?
+
+In the early days of web development, HTML tables (<table>) were commonly used for webpage layout. However, using tables for layout is not recommended because
+
+1. Problems with Using Tables for Layout
+ Not Semantic – Tables are meant for tabular data, not page design.
+ Difficult to Maintain – Complex table structures make updates harder.
+Poor Accessibility – Screen readers interpret tables as data, confusing users.
+Slower Performance – More HTML elements increase page load time.
+ Not Responsive – Tables do not adapt well to different screen sizes.
+
+
+Modern web design uses CSS (Cascading Style Sheets) instead of tables for layout.
+The best alternatives are:
+
+✅ A. CSS Flexbox (For one-dimensional layouts)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4

@@ -1,0 +1,45 @@
+{
+    "list":
+    [
+        {
+            "id" : 1 , 
+            "Name" : "himanshu" , 
+            "Email" : "kavahimanshu24@gmail.com",
+            "Role" : "Admin" ,
+            "Status" : "Actve"
+        } ,
+
+        {
+            "id" : 2 , 
+            "Name" : "kishan" , 
+            "Email" : "kishan@gmail.com",
+            "Role" : "User" ,
+            "Status" : "Actve"
+        } ,
+        
+        {
+            "id" : 3 , 
+            "Name" : "rutvik" , 
+            "Email" : "rutvik@gmail.com",
+            "Role" : "Admin" ,
+            "Status" : "Actve"
+        } ,
+        
+        {
+            "id" : 4 , 
+            "Name" : "nirali" , 
+            "Email" : "nirali@gmail.com",
+            "Role" : "User" ,
+            "Status" : "Actve"
+        } ,
+        
+        {
+            "id" : 5 , 
+            "Name" : "sushil" , 
+            "Email" : "sushil@gmail.com",
+            "Role" : "Admin" ,
+            "Status" : "Actve"
+        } 
+        
+    ]
+}
